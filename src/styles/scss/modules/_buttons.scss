@@ -1,0 +1,29 @@
+.btn{
+    border-radius: 99px;
+    padding: 21px 30px;
+    width: 164px;
+    &.btn-outline-light{
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid #FFFFFF;
+        backdrop-filter: blur(50px);
+    }
+    &.btn-outline-primary{
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid #4980EE;
+    }
+}
+
+@media screen and (max-width:992px){
+    .btn{
+        border-radius: 99px;
+        padding: 14px 20px;
+        width: 109px;
+        font-size: 14px;
+        line-height: 16px;
+        span{
+            font-size: 14px;
+            line-height: 16px;
+        }
+    }
+
+}

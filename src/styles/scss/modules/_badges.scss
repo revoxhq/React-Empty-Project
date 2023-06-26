@@ -1,0 +1,41 @@
+.badge{
+    z-index: 2;
+    padding: 15px 25px 14px 30px;
+    width: fit-content;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 150%;
+    &.badge-pill{
+        border-radius: 100px;
+        &.badge-primary{
+            background: #4980EE;
+            color: #FBFAFD;
+            box-shadow: 0px 27px 19px -22px rgba(73, 128, 238, 0.34);
+        }
+        &.badge-success{
+            background: #AFFFCC;
+            color: #219653;
+            box-shadow: 0px 27px 19px -22px rgba(0, 0, 0, 0.17);
+        }
+        &.badge-warning{
+            background: #FFFAEC;
+            color: #D07F38;
+            box-shadow: 0px 27px 19px -22px rgba(0, 0, 0, 0.17);
+        }
+    }
+}
+
+
+@media screen and (max-width:992px){
+    .badge{
+        padding: 7.65px 10.25px;
+        font-size: 14px;
+        span{
+            font-size: 14px;
+            line-height: 16px;
+        }
+    }
+
+}
